@@ -1,11 +1,12 @@
-// example.cpp : 定义控制台应用程序的入口点。
-//
+#include "accumulators_test.h"
 
-#include "stdafx.h"
-
+//using namespace std;
+using namespace boost;
 
 int main()
 {
-    return 0;
-}
+	// test of boost/algorithm/accumulators
+	accumulator_test_fun();
 
+	return 0;
+}
